@@ -6,7 +6,7 @@ const div = document.getElementById('app')
 console.log('div')
 console.log(div)
 div.innerHTML = `
-  <img src="${png}">
+  <img src="${png}" width="500">
 `
 
 const button = document.createElement('button')
